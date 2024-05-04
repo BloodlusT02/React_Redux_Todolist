@@ -9,7 +9,10 @@ const Todo = () => {
 
     return(
         <>
-            <div>Todos</div>
+            <div className="font-semibold mt-3">Your Todos</div>
+
+        
+
             <ul className="list-none">
                 {todos.map((todo) => (
                 <li
